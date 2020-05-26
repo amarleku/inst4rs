@@ -73,7 +73,8 @@ a {
 
 .pricing-title {
 	color: #403E3D;
-	background: #cd7f32;
+	background: rgb(205,127,50);
+	background: linear-gradient(90deg, rgba(205,127,50,1) 49%, rgba(181,201,12,1) 100%);
 	padding: 20px 0;
 	font-size: 2em;
 	text-transform: uppercase;
@@ -81,11 +82,13 @@ a {
 }
 
 #silvercolor {
-  background-color:#c0c0c0;
+	background: rgb(192,192,192);
+	background: linear-gradient(90deg, rgba(192,192,192,1) 49%, rgba(0,0,0,1) 100%);
 }
 
 .pricing-table.recommended .pricing-title {
-	background: #ffd700;
+	background: rgb(255,215,0);
+	background: linear-gradient(90deg, rgba(255,215,0,1) 49%, rgba(108,255,0,1) 100%);
 }
 
 .pricing-table.recommended .pricing-action {
